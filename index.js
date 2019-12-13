@@ -1,6 +1,8 @@
-function takeANumber(array1,name){
-    array1.push(name)
+var x = 1;
+function takeANumber(array1){
+    array1.push(x)
     return "You are ticket number " + array1.length + " in line.";
+    x++;
 }
 
 function nowServing(array1){
