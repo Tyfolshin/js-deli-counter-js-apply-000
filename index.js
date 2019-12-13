@@ -7,7 +7,7 @@ function nowServing(array1){
   if(array1.length === 0){
     return "There is nobody waiting to be served!";
   }
-    return "Currently serving " + array1.shift() + "."
+    return `Currently serving ${array1.shift()}`;
 }
 var line =[];
 function currentLine(array1){
